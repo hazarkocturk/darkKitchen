@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Angkor&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="./img/Screenshot_2024-03-12_at_12.54.47-removebg-preview.png"
+          alt=""/>
+        TURKISH KEBAP
+      </div>
+      <div class="navbar">
+        <i class="fa-solid fa-moon" id="darkmood"></i><i class="fa-solid fa-basket-shopping" id="basket">
+            <div class="littlecircle"></div>
+        </i>
+        <div class="secretbasket vanish">
+            <ul>Your Basket</ul>
+            <p>Total = <span></span></p>
+        </div>
+      </div>
+    </header>
+    <main>
+
+      <section class="top">
+        <h2>MENU</h2>
+        <div class="menu">
+          <div class="menuImg"><a href="#kebaps">
+            <img src="./img/kebap-menu.png" alt="" /></div>
+            <a href="#kebaps">KEBABS</a>
+          
+        </div>
+        <div class="menu">
+          <div class="menuImg"><a href="#pitas">
+            <img src="./img/pide-menu.png" alt="" /></div>
+            PITAS</a>
+          
+        </div>
+        <div class="menu">
+          <div class="menuImg"><a href="#vegan">
+            <img src="./img/vegan-menu.png" alt="" /></div>
+            VEGAN</a>
+          
+        </div>
+      </section>
+      <section class="bottom">
+        <h2 id="kebaps">KEBAPS</h2>
+        <div class="cardContainer">
+          <div class="card">
+            <div class="cardimg"><img src="./img/kebaps/doner.png" alt=""></div>
+            <div class="cardtext">
+              <h4>Doner</h4>
+              <p>10$</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardimg"><img src="./img/kebaps/siskebap.png" alt=""></div>
+            <div class="cardtext">
+              <h4>Sis Kebap</h4>
+              <p>10$</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardimg"><img src="./img/kebaps/adanakebap.png" alt=""></div>
+            <div class="cardtext">
+              <h4>Adana Kebap</h4>
+              <p>10$</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cardimg"><img src="./img/kebaps/chicken.png" alt=""></div>
+            <div class="cardtext">
+              <h4>Chicken Doner</h4>
+              <p>7$</p>
+            </div>
+          </div>
+        </div>
+        <h2 id="pitas">PITAS</h2>
+        <div class="cardContainer">
+            <div class="card">
+              <div class="cardimg"><img src="./img/pides/kiymalipide.png" alt=""></div>
+              <div class="cardtext">
+                <h4>Meat Pita</h4>
+                <p>8$</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="cardimg"><img src="./img/pides/kasarlipide.png" alt=""></div>
+              <div class="cardtext">
+                <h4>Cheese Pita</h4>
+                <p>7$</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="cardimg"><img src="./img/pides/lahmacun.png" alt="">
+            </div>
+              <div class="cardtext">
+                <h4>Lahmacun</h4>
+                <p>5$</p>
+              </div>
+            </div>
+          </div>
+          <h2 id="vegan">VEGAN</h2>
+          <div class="cardContainer">
+            <div class="card">
+              <div class="cardimg"><img src="./img/vegan/falafel.png" alt=""></div>
+              <div class="cardtext">
+                <h4>Falafel</h4>
+                <p>6$</p>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+    <footer>
+        <div class="contact">
+            <div class="adress"><h5>Adress</h5><p>Lorem ipsum dolor sit amet.
+           </p></div>
+            <div class="phone"><h5>Phone</h5><p>000000000</p></div>
+        </div>
+        <div class="terms">
+            <div class="policy">
+            <a href="#">Terms&Conditions</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
